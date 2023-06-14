@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: "https://a5--strong-sunburst-f71874.netlify.app",
+    origin: "http://localhost:3000",
   })
 );
 
